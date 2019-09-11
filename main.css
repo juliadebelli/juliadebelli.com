@@ -1,3 +1,7 @@
+* {
+  font-family: Montserrat, sans-serif;
+}
+
 head {
   display: none;
 }
@@ -7,14 +11,39 @@ body {
   width: 100%;
   height: 100%;
   background-color: #e9e8e4;
-  font-family: Montserrat, sans-serif;
 }
 
-#top-logo {
+/* #top-logo {
   height: 6.25vh;
   display: block;
   padding: 16px;
   margin: 0 auto;
+} */
+
+#top-bar {
+  background-color: #df6058;
+  padding: 12px 0 12px 0;
+}
+
+#menu {
+  display: inline;
+  text-decoration: none;
+  text-align: center;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#menu li {
+  color: #e9e8e4;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  float: left;
 }
 
 #main-info {
@@ -24,6 +53,16 @@ body {
   margin: 0 auto;
   text-align: center;
   display: block;
+  padding: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: #474069;
+}
+
+.link:hover {
+  color: #df6058;
 }
 
 .row {
@@ -138,16 +177,3 @@ footer > ul li {
   padding: 0 20px 0 20px;
   font-size: 0.8em;
 }
-
-a:visited {
-  text-decoration: none;
-  color: #afacbc;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-/* */
-
-/* */
