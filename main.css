@@ -13,47 +13,14 @@ body {
   background-color: #e9e8e4;
 }
 
-/* #top-logo {
-  height: 6.25vh;
-  display: block;
-  padding: 16px;
-  margin: 0 auto;
-} */
-
-#top-bar {
-  background-color: #df6058;
-  padding: 12px 0 12px 0;
-}
-
-#menu {
-  display: inline;
-  text-decoration: none;
-  text-align: center;
-}
-
-#menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-#menu li {
-  color: #e9e8e4;
-  font-weight: 900;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  float: left;
-}
-
 #main-info {
   width: 80%;
   text-align: center;
   position: relative;
-  margin: 0 auto;
+  margin: 0 0 0 8%;
   text-align: center;
   display: block;
-  padding: 16px;
+  padding: 80px 0 0 0;
 }
 
 .link {
@@ -62,7 +29,8 @@ body {
 }
 
 .link:hover {
-  color: #df6058;
+  color: #FC5E54;
+  background-color: #ffffff;
 }
 
 .row {
@@ -73,11 +41,13 @@ body {
 .col {
   display: inline-block;
   text-align: center;
+  vertical-align: middle;
 }
 
 #me {
   width: 256px;
   height: 256px;
+  margin-right: 40px !important;
 }
 
 /* */
@@ -90,17 +60,17 @@ body {
 }
 
 @-webkit-keyframes color-change {
-    0% { color: #df6058; }
+    0% { color: #FC5E54; }
     50% { color: #474069; }
     100% { color: #474069; }
-    50% { color: #df6058; }
-    100% { color: #df6058; }
+    50% { color: #FC5E54; }
+    100% { color: #FC5E54; }
 }
 
 @keyframes color-change {
-    0% { color: #df6058; }
+    0% { color: #FC5E54; }
     50% { color: #474069; }
-    100% { color: #df6058; }
+    100% { color: #FC5E54; }
 }
 
 /* */
@@ -109,7 +79,12 @@ body {
 
 .destaque {
   font-weight: 900;
-  color: #df6058;
+  color: #FC5E54;
+  text-decoration: none;
+}
+
+.destaque:hover {
+  background-color: #ffffff;
 }
 
 h1 {
@@ -117,7 +92,7 @@ h1 {
   text-align: left;!important
   margin-top: 0;
   font-size: 2em;
-  color: #df6058;
+  color: #474069;
   margin: 0;
 }
 
@@ -126,6 +101,24 @@ h3 {
   color: #474069;
   font-size: 1.5em;
   text-align: left;!important
+}
+
+.sociais {
+  text-align: center;
+}
+
+.sociais:link {
+  text-decoration: none;
+}
+
+.sociais:visited {
+  text-decoration: none;
+}
+
+.pontinho {
+  font-weight: 400;
+  color: #474069;
+  font-size: 1.5em;
 }
 
 ::placeholder {
@@ -157,7 +150,8 @@ footer {
   width: 80%;
   text-align: center;
   color: #afacbc;
-  position: sticky;
+  flex-shrink: 0;
+  padding: 20px;
 }
 
 footer > p{
