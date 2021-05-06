@@ -1,0 +1,91 @@
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+header img {
+  width: 300px;
+  height: auto;
+}
+
+body {
+  background-color: #e9e8e4;
+  margin: 0 10% 2% 10%;
+}
+
+p, h4, h3, h1 {
+  color: #474069;
+}
+
+h4 {
+  color: #afacbc;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+div {
+  margin-top: 2%;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+}
+
+.destaque {
+  color: #FC5E54;
+}
+
+.project-card {
+  display: flex;
+  overflow: hidden;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.category {
+  overflow: auto;
+  margin: 0 20px 0 20px;
+}
+
+.px120 {
+  width: 120px;
+  height: auto;
+}
+
+.px360 {
+  width:360px;
+  height: auto;
+}
+
+.px720 {
+  width:720px;
+  height: auto;
+}
