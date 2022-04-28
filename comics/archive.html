@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <title>Comics | Arquivo</title>
+
+    <!-- link to the settings script. rly important to have this called before comic_show and comic_archive, contains crucial variables -->
+    <script src="js/comic_settings.js"></script>
+    <!-- link to the script that controls archiving the comic -->
+    <script src="js/comic_archive.js"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header that has the logo image and top page navigation -->
+    <script src="js/comic_header.js"></script>
+
+
+    <div class="archivePage subPage" align="center">
+
+        <h1>Arquivo</h1>
+        <script>
+        indexPage = "index.html" //set which html page your comics are on, supremely important. archive system will break otherwise
+        </script>
+
+        <div id="lastfirst">
+            <h4>Ordem decrescente</h4>
+            <script>writeArchive("lastfirst",1,maxpg,0)</script>
+        </div>
+
+    </div>
+</body>
+<!-- footer that has a link back to neocities, and ideally copyright info and stuff. don't forget to put this on every page-->
+<script src="js/comic_footer.js"></script>
+</html>

@@ -2,57 +2,87 @@
 <html lang="en-us">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Julia de Belli</title>
+    <title>Julia de Belli, UI designer and front-end developer</title>
     <script src="jquery.min.js"></script>
     <script src="typing.js"></script>
     <script src="menu.js"></script>
     <script src="language.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="shortcut icon" href="http://juliadebelli.com/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Junior designer for hire">
     <meta name="keywords" content="Julia de Belli, UI, UX, product, designer, freelance, design">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- favicon -->
   </head>
     <body>
-      <div id="main-menu">
-        <nav>
-          <ul class="row my-6">
-            <li class="current-page">Bem-vindo</li>
-            <li><span class="menu-separator">•</span></li>
-            <li><a class="link" href="portfolio.html">Portfolio</a></li>
-            <li><span class="menu-separator">•</span></li>
-            <li><a class="link" href="about.html">Sobre</a></li>
-            <li><span class="menu-separator">•</span></li>
-            <li><a class="link" href="https://medium.com/@juliadebelli">Blog</a></li>
+      <div id="content">
+        <!-- -->
+        <section id="top-nav">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+              <img src="logo.png" alt="" width="128" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </section>
+        <!-- -->
+        <section>
+          <div class="main-info" class="container">
+            <div class="row">
+              <div class="col-md4 d-flex flex-row ">
+                <img id="me" src="me.svg">
+              </div>
+              <div class="col-md4">
+                <h1 id="hi" class="py-2">Hi, I'm Julia</h1>
+                <h3 id="does">I'm a de<span class="txt-rotate" data-period="2000" data-rotate="[ &quot;signer&quot;, &quot;veloper&quot; ]"><span class="wrap"></span></span><br class="rwd-break">
+                <br>
+                I create, adapt and reshape.
+                <br><br>
+                I learn new things everyday.
+                <br><br>
+                Currently looking for<br> problems to solve in <br>São Paulo<br class="rwd-break"><br>
+                Here's my <a href="resume-en.pdf" class="link, destaque" target="_blank">resume</a>.
+                <br><br>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- aqui começa o footer -->
+        <footer>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/juliadebelli/" target="_blank" class="link">LinkedIn</a></li><span>•</span>
+            <li><a href="https://dribbble.com/juliadebelli" target="_blank" class="link">Dribbble</a></li><span>•</span>
+            <li><a href="http://github.com/juliadebelli" target="_blank" class="link">GitHub</a></li>
           </ul>
-        </nav>
+          <p id="rights">© 2022 Linus. All rights reserved.</p>
+          <p id="love">This website was actually made by my cat 🐈</p>
+        </footer>
       </div>
-      <div class="container mt-4">
-        <div class="col-lg-12 d-flex">
-          <div class="col-lg-6 my-4">
-            <h1>Olá!</h1>
-            <h3 id="does">
-            </h3>
-          </div>
-          <div class="col-lg-6 align-self-md-center">
-            <img id="me" src="me.svg">
-          </div>
-        </div>
-      </div>
-
-  <footer>
-    <div class="container text-center">
-      <div class="col-lg-12">
-        <ul>
-          <li><a href="https://www.linkedin.com/in/juliadebelli/" target="_blank" class="link">LinkedIn</a></li><span>•</span>
-          <li><a href="https://dribbble.com/juliadebelli" target="_blank" class="link">Dribbble</a></li><span>•</span>
-          <li><a href="http://github.com/juliadebelli" target="_blank" class="link">GitHub</a></li>
-        </ul>
-        <p id="rights">© 2021 Linus. Todos os direitos reservados.</p>
-        <p id="love">Na verdade foi meu gato que codou esse site 🐈</p>
-      </div>
-    </div>
-  </footer>
-  </body>
+    </body>
 </html>
