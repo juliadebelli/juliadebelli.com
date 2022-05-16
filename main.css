@@ -7,51 +7,41 @@ head {
 }
 
 body {
-  margin: 0 0 0 0;
+  margin: auto;
   width: 100%;
   height: 100%;
 }
 
+a {
+  color: #df6058;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #e9e8e4;
+  background-color: #474069;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
 .main-info {
-  width: 80%;
+  width: 100%;
   text-align: center;
-  position: relative;
-  margin: 0 0 0 8%;
-  text-align: center;
-  display: block;
-  padding: 2% 0 2% 0;
-  margin-top: 20px;
+  margin: 0;
+  padding: 2%;
   background-color: #e9e8e4;
   border-radius: 50px;
 }
 
-.main {
-  display: flex;
-  justify-content: center;
+a.nav-link {
+  font-weight: 400;
+  color: #df6058 !important;
+  font-size: 1.5em;
+  text-align: left;
 }
 
-.info {
-  display: flex;
-  margin: 5% 20% 0 20%;
-}
-
-.link {
-  text-decoration: none;
-  color: #474069;
-}
-
-.link:hover {
-  color: #FC5E54;
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-
-.link:link {
-  text-decoration: none;
-}
-
-.link:visited {
-  text-decoration: none!important;
+a.nav-link:hover {
+  color: #e9e8e4 !important;
 }
 
 .row {
@@ -68,16 +58,6 @@ body {
 #me {
   width: 256px;
   height: 256px;
-}
-
-.destaque {
-  font-weight: 900;
-  color: #FC5E54;
-  text-decoration: none;
-}
-
-.destaque:hover {
-  background-color: #ffffff;
 }
 
 .page-title {
@@ -97,6 +77,24 @@ h3 {
   color: #474069;
   font-size: 1.5em;
   text-align: left;
+}
+
+h5 {
+  font-weight: 400;
+  color: #474069;
+  font-size: 1em;
+  text-align: left;
+  color: #474069;
+}
+
+h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #474069;
+}
+
+.negrito {
+  font-weight: 600;
 }
 
 .tags {
@@ -181,6 +179,10 @@ h3 {
   display: inline-block;
   width: 160px;
   height: 160px;
+}
+
+.separator {
+  height: 8px;
 }
 
 footer {
