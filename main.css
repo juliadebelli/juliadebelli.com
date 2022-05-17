@@ -60,6 +60,10 @@ a.nav-link:hover {
   height: 256px;
 }
 
+#me:hover {
+  opacity: 40%;
+}
+
 .page-title {
   text-align: center;
 }
@@ -95,66 +99,6 @@ h6 {
 
 .negrito {
   font-weight: 600;
-}
-
-.tags {
-  display: flex;
-  overflow: hidden;
-  justify-content: center;
-}
-
-.red {
-  background-color: rgb(252,94,84,.2);
-  color: #FC5E54;
-  border-radius: 30px;
-  font-weight: 900;
-  padding: 4px 8px 4px 8px;
-  text-transform: uppercase;
-  font-size: 1em;
-  margin-right: 4px;
-}
-
-.blue {
-  background-color: rgb(43,193,214,.2);
-  color: #2bc1d6;
-  border-radius: 30px;
-  font-weight: 900;
-  padding: 4px 8px 4px 8px;
-  text-transform: uppercase;
-  font-size: 1em;
-  margin-right: 4px;
-}
-
-.red > #hash {
-  color: rgb(252,94,84,.4);
-  font-weight: 900;
-}
-
-.blue > #hash {
-  color: rgb(43,193,214,.4);
-  font-weight: 900;
-}
-
-.img-cover {
-  height: 200px;
-}
-
-.sociais {
-  text-align: center;
-}
-
-.sociais:link {
-  text-decoration: none;
-}
-
-.sociais:visited {
-  text-decoration: none;
-}
-
-.pontinho {
-  font-weight: 400;
-  color: #474069;
-  font-size: 1.5em;
 }
 
 ::placeholder {
