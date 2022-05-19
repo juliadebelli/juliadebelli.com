@@ -26,6 +26,11 @@ a:hover {
   text-decoration: none;
 }
 
+p {
+  color: #474069;
+  text-align: left;
+}
+
 .main-info {
   width: 100%;
   text-align: center;
