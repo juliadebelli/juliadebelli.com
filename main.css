@@ -1,3 +1,5 @@
+/* @media (min-width: 19200px) { */
+
 * {
   font-family: Montserrat, sans-serif;
 }
@@ -55,14 +57,24 @@ a.nav-link:hover {
   vertical-align: middle;
 }
 
+.card {
+  margin: 0px 10px 20px 10px;
+}
+
+.badge {
+  font-weight: 600;
+}
+
 #me {
   width: 256px;
   height: 256px;
 }
 
+/*
 #me:hover {
   opacity: 40%;
 }
+*/
 
 .page-title {
   text-align: center;
