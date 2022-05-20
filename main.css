@@ -105,13 +105,39 @@ h5 {
   color: #474069;
   font-size: 1em;
   text-align: left;
-  color: #474069;
 }
 
 h6 {
   font-weight: 600;
   text-transform: uppercase;
   color: #474069;
+}
+
+form {
+  text-align: left;
+  color: #474069;
+}
+
+form label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+form button {
+  background-color: #df6058;
+  color: #e9e8e4;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #474069;
+  color: #e9e8e4;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
 }
 
 .negrito {
