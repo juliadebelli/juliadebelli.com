@@ -1,4 +1,12 @@
 /* @media (min-width: 19200px) { */
+/*                              */
+:root {
+  --julia-coral: #df6058;
+  --julia-deep-purple: #474069;
+  --julia-medium-grey: #AFACBC;
+  --julia-light-grey: #E9E8E4;
+  --tiffany-blue: #00CCCC;
+}
 
 * {
   font-family: Montserrat, sans-serif;
@@ -14,20 +22,24 @@ body {
   height: 100%;
 }
 
+h1, h3, h5, h6, p, form {
+  color: var(--julia-deep-purple);
+  text-align: left;
+}
+
 a {
-  color: #df6058;
+  color: var(--julia-coral);
   font-weight: 600;
 }
 
 a:hover {
-  color: #e9e8e4;
-  background-color: #474069;
+  color: var(--julia-light-grey);
+  background-color: var(--julia-deep-purple);
   border-radius: 2px;
   text-decoration: none;
 }
 
 p {
-  color: #474069;
   text-align: left;
 }
 
@@ -36,19 +48,19 @@ p {
   text-align: center;
   margin: 0;
   padding: 2%;
-  background-color: #e9e8e4;
+  background-color: var(--julia-light-grey);
   border-radius: 50px;
 }
 
 a.nav-link {
   font-weight: 400;
-  color: #df6058 !important;
+  color: var(--julia-coral) !important;
   font-size: 1.5em;
   text-align: left;
 }
 
 a.nav-link:hover {
-  color: #e9e8e4 !important;
+  color: var(--julia-light-grey) !important;
 }
 
 .row {
@@ -66,9 +78,25 @@ a.nav-link:hover {
   margin: 0px 10px 20px 10px;
 }
 
+/* here are project category colors */
+
 .badge {
   font-weight: 600;
 }
+
+.design {
+  background-color: var(--julia-coral) !important;
+}
+
+.code {
+  background-color: var(--tiffany-blue) !important;
+}
+
+.other {
+  background-color: var(--julia-deep-purple) !important;
+}
+
+/*  */
 
 #me {
   width: 256px;
@@ -87,35 +115,23 @@ a.nav-link:hover {
 
 h1 {
   font-weight: 900;
-  text-align: left;
   font-size: 2em;
-  color: #474069;
   margin: 0;
 }
 
 h3 {
   font-weight: 400;
-  color: #474069;
   font-size: 1.5em;
-  text-align: left;
 }
 
 h5 {
   font-weight: 400;
-  color: #474069;
   font-size: 1em;
-  text-align: left;
 }
 
 h6 {
   font-weight: 600;
   text-transform: uppercase;
-  color: #474069;
-}
-
-form {
-  text-align: left;
-  color: #474069;
 }
 
 form label {
@@ -125,16 +141,16 @@ form label {
 }
 
 form button {
-  background-color: #df6058;
-  color: #e9e8e4;
+  background-color: var(--julia-coral);
+  color: var(--julia-light-grey);
   font-weight: 600;
   border: 0;
   border-radius: 5px;
 }
 
 form button:hover {
-  background-color: #474069;
-  color: #e9e8e4;
+  background-color: var(--julia-deep-purple);
+  color: var(--julia-light-grey);
   font-weight: 600;
   border: 0;
   border-radius: 5px;
@@ -145,7 +161,7 @@ form button:hover {
 }
 
 ::placeholder {
-  color: #afacbb;
+  color: var(--julia-medium-grey);
   padding-left: 1em;
 }
 
