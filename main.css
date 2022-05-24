@@ -46,10 +46,17 @@ p {
 .main-info {
   width: 100%;
   text-align: center;
-  margin: 0;
-  padding: 2%;
   background-color: var(--julia-light-grey);
   border-radius: 50px;
+}
+
+.other-info {
+  padding: 2%;
+  text-align: center;
+}
+
+.breadcrumb {
+  background-color: var(--julia-light-grey);
 }
 
 a.nav-link {
