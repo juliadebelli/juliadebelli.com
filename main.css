@@ -10,6 +10,7 @@
 
 * {
   font-family: Montserrat, sans-serif;
+
 }
 
 head {
@@ -51,12 +52,20 @@ p {
 }
 
 .other-info {
-  padding: 2%;
   text-align: center;
+}
+
+.project-nav {
+  background-color: var(--julia-light-grey);
+  border-radius: 40px;
 }
 
 .breadcrumb {
   background-color: var(--julia-light-grey);
+}
+
+.bi-arrow-left {
+  color: var(--julia-coral);
 }
 
 a.nav-link {

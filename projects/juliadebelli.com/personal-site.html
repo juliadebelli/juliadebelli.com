@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../../main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="http://juliadebelli.com/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--  favicon -->
@@ -33,54 +34,65 @@
   </head>
   <body>
     <!-- -->
-    <section class="m-auto">
-      <div class="container">
-        <div class="px-4 py-4">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="../../work.html">
-              <!-- the arrow -->
+    <div id="content">
+      <section class="mt-4">
+        <div class="container m-4 project-nav px-2">
 
-              <!-- the arrow -->
-              Work</a></li>
-              <li class="breadcrumb-item active" aria-current="page">This Website</li>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mx-2">
+              <!-- -->
+                <li class="pr-1">
+                  <a href="../../work.html">
+                  <i class="bi bi-arrow-left"></i></li>
+
+                <!-- -->
+                <li class="breadcrumb-item">
+                Work
+                </a>
+                </li>
+
+                <li class="breadcrumb-item active" aria-current="page">This Website</li>
             </ol>
           </nav>
-        </div>
-      </div>
-    </section>
-    <!-- -->
-    <div class="container m-4">
-      <p class="p-2">This is the design doc of this website. I design and code it
-        myself since 2017. It's deployed using netlify and github, so what you see
-        is always my latest push. In all ways this is my lab, where I get to experiment
-        and iterate in faster cycles.
-        <br><br>
-        The design system and screens are in this <a href="https://www.figma.com/file/pS3q3ZcouryZUq5nAXULVj/Julia-de-Belli?node-id=16%3A128" target="_blank">figma file</a>
-         and code in the <a href="https://github.com/juliadebelli/juliadebelli.com" target="_blank">github repo</a>.
-         <br><br>
-         Below are the previous releases:
-      </p>
-    </div>
-    <div class="container main-info m-4 p-4 d-flex justify-content-center">
 
-    <!--  -->
-      <div class="col-md-6 col-sm-12">
-        <img src="site_01.gif" class="img-fluid pb-2" style="border-radius: 10px;">
-        <img src="site_02.png" class="img-fluid pb-2" style="border-radius: 10px;">
-        <img src="site_03.png" class="img-fluid pb-2" style="border-radius: 10px;">
-        <img src="site_04.png" class="img-fluid pb-2" style="border-radius: 10px;">
-      </div>
-    <!--  -->
-    </div>
-    <!-- -->
-    <footer>
-      <div class="container pt-2 pb-4">
-        <div>
-          <img src="../../separator.svg" class="separator">
         </div>
-      </div>
-    </footer>
-    <!-- -->
+      </section>
+      <!-- -->
+      <section><!--  -->
+        <div class="container m-4">
+          <h3 class="p-2 negrito">juliadebelli.com</h3>
+          <p class="p-2">This is the design doc of this website. I design and code it
+            myself since 2017. It's deployed using netlify and github, so what you see
+            is always my latest push. In all ways this is my lab, where I get to experiment
+            and iterate in faster cycles.
+            <br><br>
+            The design system and screens are in this <a href="https://www.figma.com/file/pS3q3ZcouryZUq5nAXULVj/Julia-de-Belli?node-id=16%3A128" target="_blank">figma file</a>
+             and code in the <a href="https://github.com/juliadebelli/juliadebelli.com" target="_blank">github repo</a>.
+             <br><br>
+             Below are the previous releases:
+          </p>
+        </div>
+        <div class="container main-info m-4 p-4 d-flex justify-content-center">
+
+        <!--  -->
+          <div class="col-md-6 col-sm-12">
+            <img src="site_01.gif" class="img-fluid pb-2" style="border-radius: 10px;">
+            <img src="site_02.png" class="img-fluid pb-2" style="border-radius: 10px;">
+            <img src="site_03.png" class="img-fluid pb-2" style="border-radius: 10px;">
+            <img src="site_04.png" class="img-fluid pb-2" style="border-radius: 10px;">
+          </div>
+        <!--  -->
+        </div>
+      </section>
+      <!-- -->
+      <footer>
+        <div class="container pt-2 pb-4">
+          <div>
+            <img src="../../separator.svg" class="separator">
+          </div>
+        </div>
+      </footer>
+      <!-- -->
+    </div>
   </body>
   </html>
