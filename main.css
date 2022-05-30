@@ -105,6 +105,11 @@ a.nav-link:hover {
   font-weight: 600;
 }
 
+.badge:hover {
+  background-color: var(--julia-light-grey) !important;
+  color: var(--julia-deep-purple) !important;
+}
+
 .design {
   background-color: var(--julia-coral) !important;
 }
@@ -179,6 +184,10 @@ form button:hover {
 
 .negrito {
   font-weight: 600;
+}
+
+.italico {
+  font-style: italic;
 }
 
 ::placeholder {
