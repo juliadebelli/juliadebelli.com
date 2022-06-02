@@ -64,22 +64,21 @@
         <!-- -->
         <section class="mt-4">
           <div class="container col-md-6 m-auto main-info px-4 py-4">
-            <form class="col-md-12" name="contact" method="POST" data-netlify="true">
+            <form class="col-md-12" name="contact" action="https://hooks.zapier.com/hooks/catch/5048932/baomc63/"
+            method="post" enctype="multipart/form-data">
               <div class="form-group">
                 <label>Name</label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                <input type="name" class="form-control" name="name" id="exampleFormControlInput1" placeholder="John Doe">
               </div>
               <div class="form-group">
                 <label>E-mail</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
               <div class="form-group">
                 <label>Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                <input class="form-control" name="message" id="exampleFormControlTextarea1" rows="4"></input>
               </div>
-              <p>
-                <button class="offset-md-3 col-md-6 py-2" type="submit">SEND</button>
-              </p>
+              <button class="offset-md-3 col-md-6 py-2" type="submit" value="submit">SEND</button>
             </form>
             <!-- aqui termina o form -->
           </div>

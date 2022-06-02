@@ -28,6 +28,10 @@ h1, h3, h5, h6, p, form {
   text-align: left;
 }
 
+button {
+  border: none;
+}
+
 a {
   color: var(--julia-coral);
   font-weight: 600;
@@ -105,9 +109,11 @@ a.nav-link:hover {
   font-weight: 600;
 }
 
+/* I'll remove those important soon as I figure modifying bootstrap root css */
 .badge:hover {
   background-color: var(--julia-light-grey) !important;
   color: var(--julia-deep-purple) !important;
+  border: none;
 }
 
 .design {
@@ -121,7 +127,6 @@ a.nav-link:hover {
 .other {
   background-color: var(--julia-deep-purple) !important;
 }
-
 /*  */
 
 #me {
