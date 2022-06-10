@@ -1,0 +1,236 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* header */
+
+.navbar {
+  background-color: white;
+  padding: 0 20 20 20px;
+  height: 80px;
+  letter-spacing: 0.2em;
+  margin: auto;
+}
+
+nav {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* modifying bootstrap */
+
+a, a:active, a:hover, a:visited {
+  text-decoration: none !important;
+
+}
+
+a, a:visited {
+  color: #598CBD !important; /* lojong blue */
+}
+
+a:hover {
+  color: #E66277 !important; /* light carmine */
+}
+
+a:active {
+  color: #F5BA54 !important;
+}
+
+/* */
+
+#top-logo {
+  width: 80px;
+  height: auto;
+  fill: #598CBD; /* lojong blue */
+}
+
+.nav-item {
+  text-transform: uppercase;
+  color: #598CBD; /* lojong blue */
+}
+
+.subscribe {
+  font-weight: 700;
+  background-color: #F9D186; /* cherokee */
+  border-radius: 30px;
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border: none;
+}
+
+.subscribe:hover {
+  background-color: #E66277; /* light carmine */
+}
+
+#top-subscribe {
+  font-weight: 700;
+  background-color: #598CBD; /* lojong blue */
+  color: white;
+  border-radius: 30px;
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border: none;
+}
+
+#top-subscribe:hover {
+  background-color: #E66277; /* light carmine */
+}
+
+@media (max-width: 767px) {
+  #menu {
+    display: none;
+  }
+
+  #top-subscribe {
+    display: none;
+  }
+}
+
+/* welcome */
+
+#welcome {
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+#welcome-img {
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.bold-title {
+  font-weight: 900 !important;
+}
+
+#first-text {
+  padding-top: 100px !important;
+}
+
+/* features */
+
+#features {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.card-img {
+  padding: 20px 0 20px 0;
+  width: 200px !important;
+}
+
+.feature-title {
+  text-transform: uppercase;
+}
+
+.feature-p {
+  padding-bottom: 20px;
+}
+
+/* plans */
+
+#plans {
+  overflow: hidden;
+  background-color: #598CBD; /* lojong blue */
+  padding: 2em 2em 0 2em;
+}
+
+.text-small {
+  font-size: 0.5em;
+}
+
+.background-blue {
+  background-color: #598CBD!important; /* lojong blue */
+}
+
+/* modifying bootstrap */
+
+.card {
+  border: none !important;
+}
+
+.card-header {
+  border: none !important;
+  border-top-left-radius: 30px !important;
+  border-top-right-radius: 30px !important;
+  background-color: #406A87;
+}
+
+.card-body {
+  background-color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#monthly-plan {
+  background-color: #E4E4E1; /* platinum */
+}
+
+#yearly-plan {
+  background-color: #F5BA54; /* casablanca */
+}
+
+/* faq */
+
+/* bottom */
+
+#bottom {
+  background-color: #F1AA9A; /* wax flower */
+  overflow: hidden;
+  padding: 20px;
+}
+
+#bottom-img {
+  width: 200px;
+}
+
+#bottom-title {
+  color: white;
+}
+
+#subscribe-bottom {
+  margin: 20px 0 10px 0 !important;
+}
+
+.transition {
+  position: relative;
+  margin-top: -10px;
+  margin-bottom: -8px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* footer */
+
+footer {
+  background-color: #E4E4E1; /* platinum */
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.footer-copyright {
+  text-transform: uppercase;
+  color: #598CBD; /* lojong blue */
+  padding-bottom: 40px;
+}
+
+.social-icon {
+  width: 40px;
+  height: auto;
+  display: inline-block;
+}
+
+#icon-facebook, #icon-instagram, #icon-twitter {
+  fill: #598CBD; /* lojong blue */
+}
+
+#icon-facebook:hover, #icon-instagram:hover, #icon-twitter:hover {
+  fill: #E66277; /* light carmine */
+}
+
+#icon-facebook:active, #icon-instagram:active, #icon-twitter:active {
+  fill: #F5BA54; /* casablanca */
+}
