@@ -48,11 +48,21 @@ p {
   text-align: left;
 }
 
+code {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--julia-coral);
+}
+
 .main-info {
   width: 100%;
   text-align: center;
   background-color: var(--julia-light-grey);
   border-radius: 50px;
+}
+
+.white-info {
+  background-color: white;
 }
 
 .other-info {
@@ -101,6 +111,20 @@ a.nav-link:hover {
 .card-date {
   color: var(--julia-medium-grey);
   font-size: 0.8em;
+}
+
+.container article {
+  border-radius: 5px;
+}
+
+article h3 {
+  font-weight: 600;
+}
+
+.subtitle {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: left;
 }
 
 /* here are project category colors */
