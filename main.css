@@ -164,6 +164,10 @@ article h3 {
 }
 */
 
+.estagio-icon {
+  height: 5em;
+}
+
 .page-title {
   text-align: center;
 }
@@ -222,19 +226,6 @@ form button:hover {
 ::placeholder {
   color: var(--julia-medium-grey);
   padding-left: 1em;
-}
-
-.rwd-break {
-  display: block;
-}
-
-#icon-row-block {
-  display: block;
-  text-align: center;
-}
-
-#icon-row {
-  display: inline-block;
 }
 
 .icon {
