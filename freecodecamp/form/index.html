@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1 id="title">Título</h1>
+
+  <p id="description">descrição</p>
+
+  <form id="survey-form">
+
+    <label id="name-label">Nome</label>
+    <input id="name" type="text" placeholder="João Macieira" required></input>
+
+    <label id="email-label">E-mail</label>
+    <input id="email" type="email" placeholder="macieira.joao@pomar.com" required></input>
+
+    <label id="number-label">Número</label>
+    <input id="number" type="number" min="1" max="100" placeholder="01 a 100"></input>
+
+    <label id="select-label">
+      Gênero
+    </label>
+    <select id="dropdown">
+
+      <option value="mulher">Mulher</option>
+
+      <option value="homem">Homem</option>
+
+      <option value="nao-binarie">Não-binárie</option>
+
+    </select>
+
+    <label id="radio-label">Fruta favorita?</label>
+
+    <input type="radio" name="fruta-favorita" value="maca">Maçã</input>
+
+    <input type="radio" name="fruta-favorita" value="banana">Banana</input>
+
+    <input type="radio" name="fruta-favorita" value="uva">Uva</input>
+
+    <label id="checkbox-label">Forma favorita de consumir frutas?</label>
+
+    <input type="checkbox" value="vitamina">Vitamina</input>
+
+    <input type="checkbox" value="vitamina">Salada</input>
+
+    <input type="checkbox" value="vitamina">Suco</input>
+
+    <textarea placeholder="Comentários adicionais"></textarea>
+
+    <button id="submit">Enviar</button>
+
+  </form>
+</body>
+</html>
