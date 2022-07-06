@@ -95,7 +95,7 @@ footer {
   margin: 0;
   z-index: 4;
   position: relative;
-  blend-mode: multiply;
+  mix-blend-mode: multiply;
 }
 
 .m-0 {

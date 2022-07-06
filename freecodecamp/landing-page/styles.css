@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Quicksand:wght@300;400;700&display=swap');
+
+body, html {
+  margin: 0;
+  min-height: 100%;
+  background-color: #DDAE8B;
+}
+
+#bg-img {
+    opacity: 0.6;
+
+background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: fixed;
+
+  margin: 0;
+  padding: 0;
+
+  z-index: 0;
+
+  width: 120%;
+
+  overflow: hidden;
+
+  mix-blend-mode: multiply;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#header-img {
+  position: relative;
+  height: 5em;
+  padding: 1em;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  padding: 0 2em 0 0;
+}
+
+#nav-bar button {
+  text-transform: uppercase;
+  color: white;
+  background-color: magenta;
+}
+
+#link-title {
+  color: white;
+  position: relative;
+  font-family: 'Fugaz One', sans-serif;
+  font-size: 2em;
+}
+
+#leads, #precos, #ingredientes, #como {
+  position: relative;
+}
+
+a, h1, p, form {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#header, #como, #ingredientes, #precos, #leads {
+  position: relative;
+}
+
+@media screen
+  and (max-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    #nav-bar {
+      display: none;
+    }
+
+}
