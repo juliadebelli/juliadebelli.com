@@ -20,8 +20,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="https://juliadebelli.com/favicon.ico" type="image/x-icon">
-    <meta name="description" content="Junior designer for hire">
-    <meta name="keywords" content="Julia de Belli, UI, UX, product, designer, freelance, design">
+    <meta name="description" content="Portfolio and more">
+    <meta name="keywords" content="UI, UX, product, designer, startup, design, Julia, Belli">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--  favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
@@ -85,6 +85,7 @@
           <div class="container main-info m-auto px-4 py-4">
 <!-- work category legends below -->
             <div id="btnContainer" class="container d-flex justify-content-center">
+              <button class="btn">Show all</button>
               <button class="btn" onclick="filterSelection('filterDesign')"><span class="badge design bg-info text-light float-left">Design</span></button>
               <button class="btn" onclick="filterSelection('filterCode')"><span class="badge code bg-info text-light float-left ml-2">Code</span></button>
               <button class="btn" onclick="filterSelection('filterOther')"><span class="badge other bg-info text-light float-left ml-2">Other</span></button>
@@ -93,6 +94,21 @@
             <div class="container d-flex">
               <div class="container projects row my-4">
 
+                <!-- -->
+
+                <div class="col card filterDiv filterOther" style="width: 256px;">
+                  <a href="#" target="_blank">
+                    <img class="card-img-top mt-3" src="../assets/covers/cover_gorila-app.png">
+                    <div class="card-body">
+                      <div class="flex-row d-flex">
+                        <span class="badge design bg-info text-light float-left ml-1">Mobile</span>
+                        <span class="badge design bg-info text-light float-left ml-1">Sketch</span>
+                      </div>
+                      <h5 class="card-title my-2">Gorila App</h5>
+                      <h5 class="card-date">2019 - 2020</h5>
+                    </div>
+                  </a>
+                </div>
                 <!-- -->
 
                 <div class="col card filterDiv filterOther" style="width: 256px;">
@@ -107,22 +123,7 @@
                     </div>
                   </a>
                 </div>
-                <!-- -->
 
-                <!-- -->
-                <div class="col card filterDiv filterDesign" style="width: 256px;">
-                  <a href="https://www.figma.com/proto/Ismcu79HL98ZgrzVBjWTut/Navegue?node-id=553%3A1305&scaling=scale-down&page-id=87%3A251&starting-point-node-id=553%3A1305" target="_blank">
-                    <img class="card-img-top mt-3" src="../assets/covers/cover_navegue.png">
-                    <div class="card-body">
-                      <div class="flex-row d-flex">
-                        <span class="badge design bg-info text-light float-left">Mobile app</span>
-                        <span class="badge design bg-info text-light float-left ml-1">Figma</span>
-                      </div>
-                      <h5 class="card-title my-2">Navegue</h5>
-                      <h5 class="card-date">2021</h5>
-                    </div>
-                  </a>
-                </div>
                 <!-- -->
 
                 <!-- -->
@@ -135,7 +136,37 @@
                         <span class="badge other bg-info text-light float-left ml-1">Open source</span>
                       </div>
                       <h5 class="card-title my-2">Pixel Brazil for Data Vis</h5>
+                      <h5 class="card-date">2022 -</h5>
+                    </div>
+                  </a>
+                </div>
+                <!-- -->
+
+                <div class="col card  filterDiv filterDesign filterCode" style="width: 256px;">
+                  <a href="../pt/projects/vanilla_dex/index.html" target="_blank">
+                    <img class="card-img-top mt-3" src="../assets/covers/cover_dex.png">
+                    <div class="card-body">
+                      <div class="flex-row d-flex">
+                        <span class="badge code bg-info text-light float-left">JS</span>
+                        <span class="badge code bg-info text-light float-left ml-1">API</span>
+                      </div>
+                      <h5 class="card-title my-2">Vanilla Pokédex</h5>
                       <h5 class="card-date">2022</h5>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- -->
+                <div class="col card filterDiv filterDesign" style="width: 256px;">
+                  <a href="https://www.figma.com/proto/Ismcu79HL98ZgrzVBjWTut/Navegue?node-id=553%3A1305&scaling=scale-down&page-id=87%3A251&starting-point-node-id=553%3A1305" target="_blank">
+                    <img class="card-img-top mt-3" src="../assets/covers/cover_navegue.png">
+                    <div class="card-body">
+                      <div class="flex-row d-flex">
+                        <span class="badge design bg-info text-light float-left">Mobile</span>
+                        <span class="badge design bg-info text-light float-left ml-1">Figma</span>
+                      </div>
+                      <h5 class="card-title my-2">Navegue</h5>
+                      <h5 class="card-date">2021</h5>
                     </div>
                   </a>
                 </div>
@@ -154,6 +185,21 @@
                     </div>
                   </a>
                 </div> -->
+                <!-- -->
+
+                <!-- -->
+                <div class="col card filterDiv filterDesign" style="width: 256px;">
+                  <a href="#" target="_blank">
+                    <img class="card-img-top mt-3" src="../assets/covers/cover_freecodecamp.png">
+                    <div class="card-body">
+                      <div class="flex-row d-flex">
+                        <span class="badge code bg-info text-light float-left">JS</span>
+                      </div>
+                      <h5 class="card-title my-2">Freecodecamp.org</h5>
+                      <h5 class="card-date">2019 -</h5>
+                    </div>
+                  </a>
+                </div>
                 <!-- -->
 
                 <!-- -->
@@ -192,6 +238,17 @@
               </div>
             </div>
         </section>
+        <!-- 🧪 -->
+        <!-- aqui começa o teste de injection -->
+        <section>
+          <div>
+            <ul id="projectsUL">
+
+            </ul>
+          </div>
+        </section>
+        <!-- aqui termina o teste de injection -->
+        <!-- 🧪 -->
         <!-- aqui começa o footer -->
         <footer>
           <div class="container pt-4">
@@ -211,4 +268,5 @@
         </footer>
       </div>
     </body>
+    <script src="../js/main.js"></script>
 </html>
