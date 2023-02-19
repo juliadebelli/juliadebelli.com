@@ -54,6 +54,11 @@ code {
   color: var(--julia-coral);
 }
 
+.dark-mode {
+  background-color: var(--julia-deep-purple);
+  color: var(--julia-light-grey);
+}
+
 .main-info {
   width: 100%;
   text-align: center;
@@ -83,10 +88,12 @@ code {
 }
 
 a.nav-link {
-  font-weight: 400;
+  font-weight: bold;
   color: var(--julia-coral) !important;
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 a.nav-link:hover {
