@@ -1,5 +1,8 @@
 /* @media (min-width: 19200px) { */
 /*                              */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap')
+
 :root {
   --julia-coral: #F96058;
   --julia-deep-purple: #474069;
