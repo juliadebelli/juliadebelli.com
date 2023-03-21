@@ -1,0 +1,28 @@
+{
+  "name": "juliadebelli.com",
+  "version": "3.0.0",
+  "description": "personal website",
+  "main": "poster.js",
+  "dependencies": {
+    "marked": "^4.2.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node poster.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliadebelli/juliadebelli.com.git"
+  },
+  "keywords": [
+    "personal",
+    "website"
+  ],
+  "author": "juliadebelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliadebelli/juliadebelli.com/issues"
+  },
+  "homepage": "https://github.com/juliadebelli/juliadebelli.com#readme"
+}
