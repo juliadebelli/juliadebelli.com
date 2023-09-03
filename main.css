@@ -31,6 +31,15 @@ h1, h3, h5, h6, p, form {
   text-align: left;
 }
 
+.img-fluid {
+  max-width: 90%;
+  border-radius: 1em;
+}
+
+.italico {
+  font-style: italic;
+}
+
 button {
   border: none;
 }
@@ -49,6 +58,10 @@ a:hover {
 
 p {
   text-align: left;
+}
+
+.line-height {
+  line-height: 2.4em;;
 }
 
 code {
