@@ -79,7 +79,7 @@ code {
   width: 100%;
   text-align: center;
   background-color: var(--julia-light-grey);
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .white-info {
@@ -136,6 +136,11 @@ a.nav-link:hover {
   font-size: 0.7em;
 }
 
+.card-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 .container article {
   border-radius: 5px;
 }
@@ -180,7 +185,7 @@ article h3 {
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2em;
   margin: 0;
 }
