@@ -1,44 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="main.css">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-<link rel="manifest" href="assets/favicon/site.webmanifest">
-<title>Julia`s Blog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Julia's Blog</title>
+  <script src="jquery.min.js"></script>
+  <script src="js/typing.js"></script>
+  <script src="poster.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/dark-mode.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="shortcut icon" href="https://juliadebelli.com/favicon.ico" type="image/x-icon">
+  <meta name="description" content="Writings about design, technology, maker culture">
+  <meta name="keywords" content="blog, designer blog, developer blog, design, developer, tech">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <!-- favicon --></link>
+  
+  
+
 </head>
 <body>
 <section id="top-nav">
 <nav class="w-75 navbar navbar-expand-lg navbar-light container pt-4">
-<a class="navbar-brand" href="#">
-<img src="assets/monogram.svg" alt="" width="48" class="d-inline-block align-text-top"></a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span></button>
-<div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav">
-<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
-<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-<li class="nav-item active">
-<a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a></li>
-</ul>
-</div>
+  <a class="navbar-brand" href="https://www.behance.net/gallery/73953177/Personal-logo" target="_blank">
+    <img src="assets/monogram.svg" alt="personal branding" width="48" class="d-inline-block align-text-top">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse mt-2" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="work.html">Work</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
 </nav>
 </section>
 <div class="container w-75">
 <h1 class="pt-4 pl-5">I wrote these</h1>
 <br><br>
-<ul>
-<li><a href="./blog/Playing in the ocean at playgroundai.com.html" target="_blank">Playing in the ocean at playgroundai.com.html</a><br><p>25/9/2023</p></li> <br>
-<li><a href="./blog/Design and Open-Source.html" target="_blank">Design and Open-Source.html</a><br><p>21/8/2023</p></li> <br>
-<li><a href="./blog/Entry log.html" target="_blank">Entry log.html</a><br><p>21/3/2023</p></li> <br>
-</ul>
+<div><a href="./blog/Playing in the ocean at playgroundai.com.html" target="_blank">Playing in the ocean at playgroundai.com</a><br><p>28/09/2023</p>
+<a href="./blog/Fixing football court in real life.html" target="_blank">Fixing football court in real life</a><br><p>28/09/2023</p>
+<a href="./blog/Design and Open-Source.html" target="_blank">Design and Open-Source</a><br><p>02/08/2023</p>
+<a href="./blog/Entry log.html" target="_blank">Entry log</a><br><p>21/03/2023</p>
+</div>
 </div>
 </body>
 </html>

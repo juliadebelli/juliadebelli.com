@@ -24,7 +24,6 @@
 
     <link rel="stylesheet" type="text/css" href="main.css">
     
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="https://juliadebelli.com/favicon.ico" type="image/x-icon">
     <meta name="description" content="Designer for hire">
@@ -64,19 +63,6 @@
                 <li class="nav-item">
                   <a class="nav-link" href="blog.html">Blog</a>
                 </li>
-
-                <!--
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                -->
-
-                <!-- button to change languages ❗️ add again when internationalized
-                <li class="nav-item">
-                  <a class="nav-link" title="Trocar pra português" href="pt/pt-index.html">🇧🇷</a>
-                </li>
-                -->
-
               </ul>
             </div>
           </nav>
@@ -95,7 +81,9 @@
                 </h3>
                 <br>
                 <h3>How may I help you find what you're looking for?</h3><br>
-                <button target="_blank" href="CV-julia_de_belli.pdf" class="w-100">Let's chat</button>
+
+                <button id="chat-button" class="w-100">Let's chat</button>
+
               </div>
 
               <div class="col-sm-4 col-md-6 col-lg-6">
@@ -119,5 +107,58 @@
             </div>
         </footer>
       </div>
+
+      <!-- The modal (pop-up) -->
+      <div id="contactModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeModal">&times;</span>
+          <h2>Contact Me</h2>
+          <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+
+      <script>
+        // Get the modal
+        var modal = document.getElementById('contactModal');
+      
+        // Get the button that opens the modal
+        var btn = document.getElementById('chat-button');
+      
+        // Get the close button
+        var closeBtn = document.getElementById('closeModal');
+      
+        // When the user clicks the button, open the modal
+        btn.onclick = function() {
+          modal.style.display = 'block';
+        }
+      
+        // When the user clicks on the close button, close the modal
+        closeBtn.onclick = function() {
+          modal.style.display = 'none';
+        }
+      
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = 'none';
+          }
+        }
+      
+        // Submit form functionality can be added here
+      </script>
+      
+
     </body>
+
 </html>

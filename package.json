@@ -4,9 +4,8 @@
   "description": "personal website",
   "main": "poster.js",
   "dependencies": {
-    "marked": "^4.2.12"
+    "marked": "^4.3.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node poster.js"
