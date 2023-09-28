@@ -284,3 +284,14 @@ footer li {
   padding: 10px 20px 10px 20px;
   font-size: 0.8em;
 }
+
+@media (max-width: 575px) {
+  /* Your CSS styles for screens smaller than 576px go here */
+  h3 {
+    font-size: 0.9em;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+}
