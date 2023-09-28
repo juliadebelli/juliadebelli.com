@@ -7,13 +7,17 @@
   --julia-coral: #F96058;
   --julia-deep-purple: #474069;
   --julia-medium-grey: #AFACBC;
-  --julia-light-grey: #E9E8E4;
+  --julia-light-grey: #FBFFF1;
   --tiffany-blue: #00CCCC;
 }
 
 * {
   font-family: Montserrat, sans-serif;
   list-style: none;
+}
+
+body {
+  background-color: var(--julia-light-grey);
 }
 
 head {
@@ -42,6 +46,19 @@ h1, h3, h5, h6, p, form {
 
 button {
   border: none;
+  height: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-color: var(--tiffany-blue);
+  color: white;
+  font-weight: bold;
+  border-radius: 0.6em;
+  padding: 0.8em 1em 1em 1em;
+}
+
+button:hover {
+  background-color: var(--julia-deep-purple);
+  color: var(--julia-coral);
 }
 
 a {
@@ -50,9 +67,7 @@ a {
 }
 
 a:hover {
-  color: var(--julia-light-grey);
-  background-color: var(--julia-deep-purple);
-  border-radius: 2px;
+  color: var(--julia-deep-purple);
   text-decoration: none;
 }
 
@@ -76,9 +91,6 @@ code {
 }
 
 .main-info {
-  width: 100%;
-  text-align: center;
-  background-color: var(--julia-light-grey);
   border-radius: 20px;
 }
 
@@ -105,7 +117,7 @@ code {
 
 a.nav-link {
   font-weight: bold;
-  color: var(--julia-coral) !important;
+  color: var(--tiffany-blue) !important;
   font-size: 1em;
   text-align: left;
   text-transform: uppercase;
@@ -113,7 +125,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-  color: var(--julia-light-grey) !important;
+  color: var(--julia-deep-purple) !important;
 }
 
 .row {
@@ -192,7 +204,7 @@ h1 {
 
 h3 {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 h5 {
