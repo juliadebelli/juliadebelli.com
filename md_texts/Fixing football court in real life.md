@@ -44,23 +44,24 @@ Here I'll document and share the process of temporarily fixing the sports court 
 <p>
 City hall recently removed the metal cage on the sides of the court because they were all rusty and with huge holes where balls would easily (and accidentally) get shot into. An unfortunate bullseye.</p><br>
 <img src="assets/aurora-workers.jpg" style="border-radius: 1em;" class="w-25"><br><br>
-<p>Problem is, public power interveened and took it off, which is fine, but god only knows when they'll be installing new ones. Latin America in a nutshell.
+<p>Problem is, government intervened and took it off, which is fine, but god only knows when they'll be installing new ones. Latin America in a nutshell.
 <br><br>
-I've joined the all-female futsal team <a href="https://www.instagram.com/aurorafcrecife/" target="_blank">Aurora FC</a> in mid-2021, ever since the pandemic slowed down and collective sports were safe (and allowed) to be played in public again.<br><br></p>
+I've joined the all-female futsal league <a href="https://www.instagram.com/aurorafcrecife/" target="_blank">Aurora FC</a> in mid-2021, ever since the pandemic slowed down and collective sports were safe (and allowed) to be played in public again. It's free for all and we play every monday from 7p to 10pm.<br><br></p>
 
-<p>We play on this public court at Aurora Street, a riverside linear park. The edge of the sidewalk has this barrier-thing to keep people from falling off the river, but it happens to be damaged exactly parallel to half-way line, up until the south goal line. On high tide days, the ball will most likely be lost forever if accidentally kicked outside, for there's a pipe standing right below that pumps the river water and sucks in all debris floating next to it.
+<p>Matches are played at this public court on Aurora Street, part of a riverside linear park lying on the edge of downtown Recife. To the north stands a brand-new government-built skatepark. Southwards, a rusty 70s playground whereby a crowd of older gentlemen gather every night to play dominoes. Most court regulars though, are students from nearby schools during the day, and once the sun is down it's mostly working-class youth from lower-income areas surrounding the sparsely-packed city center.
 <br><br>
-Now that the grill is removed, balls have an even higher chance of scoring this cursed goal. Until city hall comes back on <span class="italico">undefined</span> to re-do the metal work, it's up to us to try and act in reducing damage.
+The edge of the sidewalk has a waist-high fence to keep people from falling off the river, but part of the structure fell off exactly parallel to the half-way line, up until the south goal line. On high tide days, balls will most likely be lost forever if accidentally kicked to that direction. When the water level is low, we're able jump down and get the ball back.
+<br><br>
+Now that the court fence is also missing, balls have an even higher chance of crossing two inexistent walls and scoring this cursed goal. Until city hall comes back on <span class="italico">undefined</span> to re-do the metal work, it's up to court comers to set up a temporary fix.
 <br><br>
 <br><br>
-<span style="font-size: 1.6em;">I've come to see it as a design challenge, to try and build a temporary solution for minimizing balls lost while protection is missing</span>
+<span style="font-size: 1.6em;">I've come to see it as a design challenge, to try and build a solution for minimizing balls lost while protection is missing</span>
 <br><br>
+Materials used should be cheap enough nobody will take interest in stealing them.
 <br><br>
-My first prototype was tying both goal nets on the metal posts using insulation tape. It worked but only that time, as I had to take it off once we were done. Besides bureaucrausts, we also have to deal with the ever-lingering possibility that someone might take something left unattended in a public spot, specially overnight and, in our case, over a week. A reminder that we hail from a country where impoverished men regularly take their own lives accidently while trying to steal copper wires from public electric infrastructure, in order to sell it in the black market if they happen to be alive after the ordeal.
+It cannot be something that requires any power tools to be installed, as there's no power outlet easily accessible nearby.
 <br><br>
-The materials used should be cheap enough nobody will take interest in stealing them. That's the first constraint.
-<br><br>
-It also can't be something that requires power tools to be installed, as there's no power outlet easily accessible in the surroundings of the court.
+My first prototype was tying 2 goal nets on the metal posts using insulation tape, like a makeshift fence. It worked but only that time, as I had to take it off once we were done. Besides bureaucrausts, we also have to deal with the ever-lingering possibility that someone might take something left unattended in a public spot.
 <br><br>
 I'll be keeping this entry updated with every new <span class="italico"><a target='_blank' href="https://en.wikipedia.org/wiki/Jeitinho">gambiarra</a></span> I try, and whether it worked or not.<br><br>
 It's going to be an honour to have it removed by city hall, and I trust they'll only do this once the court is ready for re-modelling - and my job will be done.
@@ -68,6 +69,6 @@ It's going to be an honour to have it removed by city hall, and I trust they'll 
 </p>
 <p>_________________________________</p>
 <p style="font-size: 0.6em;">✰ 28/09/2023</p>
-<p style="font-size: 0.6em; padding-bottom: 2em; margin-bottom: 2em;">last edited 28/09/2023</p>
+<p style="font-size: 0.6em; padding-bottom: 2em; margin-bottom: 2em;">last edited 29/09/2023</p>
 </body>
 
