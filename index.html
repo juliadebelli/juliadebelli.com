@@ -115,28 +115,20 @@
             <span class="close" id="closeModal">&times;</span>
             <h3 class="ml-2 pt-1">Contact Me</h3>
           </div>
-          <form name="contact" method="POST" id="contactForm netlify">
-            <div class="d-block">
-              <label for="name">Name</label><br>
-              <input type="text" id="name" name="name" class="w-100" required>
-              <hr>
-            </div>
+          <form name="contact" method="POST" id="contactForm" netlify class="d-block">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" class="w-100" required>
+            <hr>
             <br>
-            <div class="d-block">
-              <label for="email">E-mail</label><br>
-              <input type="email" id="email" name="email" class="w-100" required>
-              <hr>
-            </div>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" class="w-100" required>
+            <hr>
             <br>
-            <div class="d-block">
-              <label for="message">Message</label><br>
-              <textarea id="message" name="message" rows="3" class="w-100" required></textarea>
-              <hr>
-            </div>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="3" class="w-100" required></textarea>
+            <hr>
             <br>
-            <div class="container w-50 mb-3 d-flex justify-content-center">
-              <button type="submit" id="sendButton" class="w-50">Send</button>
-            </div>
+            <button type="submit" id="sendButton" class="w-50 netlify">Send</button>
           </form>
         </div>
       </div>
