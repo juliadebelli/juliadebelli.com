@@ -133,38 +133,59 @@
           </form>
         </div>
       </div>
-      
-      <!--
-        <div id="successModal" class="modal">
-        <div class="modal-content">
-          <h2>Awesome 😎</h2>
-          <p>I'll write back to you ASAP</p>
-          <button id="closeSuccessModal">Close</button>
-        </div>
-      </div>
-      
-      <div id="errorModal" class="modal">
-        <div class="modal-content">
-          <h2>Error 🥺</h2>
-          <p>Sorry, there was an error sending your message.</p>
-          <button id="closeErrorModal">Close</button>
-        </div>
-      </div> 
-    -->
-      
+
       <script>
-      
+        // Get the modals
+        var contactModal = document.getElementById('contactModal');
+        var successModal = document.getElementById('successModal');
+        var errorModal = document.getElementById('errorModal');
+
+        // Get the button that opens the contact modal
+        var btn = document.getElementById('chat-button');
+
+        // Get the close buttons for all modals
+        var closeBtn = document.getElementById('closeModal');
+        var closeSuccessBtn = document.getElementById('closeSuccessModal');
+        var closeErrorBtn = document.getElementById('closeErrorModal');
+
+        // When the user clicks the button, open the contact modal
+        btn.onclick = function() {
+          contactModal.style.display = 'block';
+        }
+
+        // When the user clicks on the close button, close the contact modal
+        closeBtn.onclick = function() {
+          contactModal.style.display = 'none';
+        }
+
+        // When the user clicks on the close button, close the success modal
+        closeSuccessBtn.onclick = function() {
+          successModal.style.display = 'none';
+        }
+
+        // When the user clicks on the close button, close the error modal
+        closeErrorBtn.onclick = function() {
+          errorModal.style.display = 'none';
+        }
+
+        // When the user clicks anywhere outside of the contact modal, close it
+        window.onclick = function(event) {
+          if (event.target == contactModal) {
+            contactModal.style.display = 'none';
+          }
+        }
+
         // Handle form submission
         var contactForm = document.getElementById('contactForm');
         var sendButton = document.getElementById('sendButton');
-      
+
         contactForm.onsubmit = function(event) {
           event.preventDefault(); // Prevent the form from submitting normally
-      
+
           // You can add your form submission logic here.
           // For demonstration purposes, we will simulate a successful submission.
           var simulatedSuccess = true;
-      
+
           if (simulatedSuccess) {
             // Display the success modal
             successModal.style.display = 'block';
@@ -174,7 +195,6 @@
           }
         }
       </script>
-        
 
   </body>
 
