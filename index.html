@@ -115,20 +115,20 @@
             <span class="close" id="closeModal">&times;</span>
             <h3 class="ml-2 pt-1">Contact Me</h3>
           </div>
-          <form name="contact" method="POST" id="contactForm" netlify class="d-block">
+          <form name="contact" method="POST" id="contactForm" netlify>
             <label for="name">Name</label><br>
-            <input type="text" id="name" name="name" class="w-100" required>
+            <input type="text" id="name" name="name" required>
             <hr>
             <br>
             <label for="email">E-mail</label><br>
-            <input type="email" id="email" name="email" class="w-100" required>
+            <input type="email" id="email" name="email" required>
             <hr>
             <br>
             <label for="message">Message</label><br>
-            <textarea id="message" name="message" rows="3" class="w-100" required></textarea>
+            <textarea id="message" name="message" rows="3" required></textarea>
             <hr>
             <br>
-            <button type="submit" id="sendButton" class="w-50 netlify">Send</button>
+            <button type="submit" id="sendButton">Send</button>
           </form>
         </div>
       </div>
@@ -144,7 +144,7 @@
       <div id="errorModal" class="modal">
         <div class="modal-content">
           <h2>Error 🥺</h2>
-          <p>Sorry, there was an error sending your message</p>
+          <p>Sorry, there was an error sending your message.</p>
           <button id="closeErrorModal">Close</button>
         </div>
       </div>
