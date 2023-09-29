@@ -109,37 +109,48 @@
       </div>
 
       <!-- The modal (pop-up) -->
-      <div id="contactModal" class="modal">
-        <div class="modal-content">
-          <span class="close" id="closeModal">&times;</span>
-          <h2>Contact Me</h2>
+      <div id="contactModal" class="modal container w-75">
+        <div class="modal-content d-flex">
+          <div class="d-flex flex-row mb-2">
+            <span class="close" id="closeModal">&times;</span>
+            <h3 class="ml-2 pt-1">Contact Me</h3>
+          </div>
           <form name="contact" netlify method="POST" id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit" id="sendButton">Send</button>
+            <div class="d-block">
+              <label for="name">Name</label><br>
+              <input type="text" id="name" name="name" class="w-100" required>
+            </div>
+            <br>
+            <div class="d-block">
+              <label for="email">E-mail</label><br>
+              <input type="email" id="email" name="email" class="w-100" required>
+            </div>
+            <br>
+            <div class="d-block">
+              <label for="message">Message</label><br>
+              <textarea id="message" name="message" rows="4" class="w-100" required>
+              </textarea>
+            </div>
+            <br>
+            <div class="container w-50 mb-3 d-flex justify-content-center">
+              <button type="submit" id="sendButton" class="w-50">Send</button>
+            </div>
           </form>
         </div>
       </div>
 
       <div id="successModal" class="modal">
         <div class="modal-content">
-          <h2>Success!</h2>
-          <p>Your message has been sent successfully.</p>
+          <h2>Awesome 😎</h2>
+          <p>I'll write back to you ASAP</p>
           <button id="closeSuccessModal">Close</button>
         </div>
       </div>
 
       <div id="errorModal" class="modal">
         <div class="modal-content">
-          <h2>Error!</h2>
-          <p>Sorry, there was an error sending your message.</p>
+          <h2>Error 🥺</h2>
+          <p>Sorry, there was an error sending your message</p>
           <button id="closeErrorModal">Close</button>
         </div>
       </div>

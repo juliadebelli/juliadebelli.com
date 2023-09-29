@@ -312,24 +312,22 @@ footer li {
 
   /* Modal content */
   .modal-content {
-    background-color: #fefefe;
+    background-color: var(--julia-light-grey);
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
     width: 70%; /* Could be more or less, depending on screen size */
   }
 
   /* Close button */
   .close {
-    color: #aaa;
+    color: var(--julia-coral);
     float: right;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 1.5em;
   }
 
   /* Close button on hover */
   .close:hover {
-    color: black;
+    color: var(--julia-deep-purple);
     text-decoration: none;
     cursor: pointer;
   }
