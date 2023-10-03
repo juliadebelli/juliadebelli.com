@@ -215,6 +215,7 @@ h5 {
 h6 {
   font-weight: 600;
   text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 form label {

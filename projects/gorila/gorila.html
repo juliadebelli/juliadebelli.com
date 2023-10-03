@@ -11,7 +11,7 @@
       gtag('config', 'G-6253NT7T5K');
     </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Documentation of juliadebelli.com</title>
+    <title>Design Process of Live Market Data Feature</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -34,7 +34,7 @@
     <section id="top-nav">
       <nav class="navbar navbar-expand-lg navbar-light container pt-4">
         <a class="navbar-brand" href="#">
-          <img src="../../../assets/logo.png" alt="" width="128" class="d-inline-block align-text-top">
+          <img src="../../assets/monogram.svg" alt="personal branding" width="48" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="../../../index.html">Home</a>
+              <a class="nav-link" href="../../index.html">Home</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="../../work.html">Work<span class="sr-only">(current)</span></a>
@@ -50,18 +50,6 @@
             <li class="nav-item">
               <a class="nav-link" href="../../about.html">About</a>
             </li>
-            <!-- ⛔️ blocked until solving netlify forms issue
-
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-
-            -->
-
-            <li class="nav-item">
-              <a class="nav-link" title="Trocar pra português" href="../../../pt/projects/juliadebelli.com/personal-site.html">🇧🇷</a>
-            </li>
-
 
           </ul>
         </div>
@@ -79,45 +67,149 @@
                 <li class="pr-1">
                   <a href="../../work.html">
                   <i class="bi bi-arrow-left"></i></li>
-
                 <!-- -->
                 <li class="breadcrumb-item">
                 Work
                 </a>
                 </li>
 
-                <li class="breadcrumb-item active" aria-current="page">This Website</li>
+                <li class="breadcrumb-item active" aria-current="page">Gorila Live Market Data</li>
             </ol>
           </nav>
 
         </div>
       </section>
       <!-- -->
-      <section><!--  -->
-        <div class="container m-4">
-          <h3 class="p-2 negrito">juliadebelli.com</h3>
-          <p class="p-2">This is the design doc of this website. I design and code it
-            myself since 2017. It's deployed using netlify and github, so what you see
-            is always my latest push. In all ways this is my lab, where I get to experiment
-            and iterate in faster cycles.
+
+
+      <section class="container p-5">
+        <div>
+          <img src="" alt="" class="w-100" style="border-radius: 2em;">
+          <h2 class="pb-1">Stocks Viewer Feature: Enhancing Retention during Trade Hours</h2>
+          <h3>In this UX case study, we will delve into the design process of a Stocks Viewer feature for an Investments App. The goal of this project is to create a seamless and user-friendly experience for users to monitor and manage their stock portfolios within the app.</h3>
+        <br><br>
+        </div>
+        <div class="d-block d-sm-flex d-lg-flex d-xl-flex w-100">
+          <div class="flex-column col-md-4">
+            <ul>
+              <li><h3>Project Overview</h3></li>
+              <li>B2C Feature Development</li>
+              <li>Duration: February - April 2020</li>
+            </ul>
+
+            <ul>
+              <li><h3>Team:</h3></li>
+              <li>Product Designer✋</li>
+              <li>React Development</li>
+              <li>Back-end Development</li>
+              <li>Product Owner </li>
+            </ul>
+            <ul>
+              <li><h3>Tools & Frameworks</h3></li>
+              <li><a href="https://sketch.com" target="_blank">Sketch</a></li>
+              <li><a href="https://abstract.com" target="_blank">Abstract</a></li>
+              <li><a href="https://zeplin.io" target="_blank">Zeplin</a></li>
+              <li><a href="https://react.dev" target="_blank">React</a></li>
+            </ul>
+          </div>
+          <br>
+          <div class="flex-column col-md-8">
+            <h3>Problem Statement</h3>
+
+            Gorila is an investment management app marketed to a market-savy, Brazilian userbase. It first came to be
+            when a group of fund managers decided to make into a web-app the tools they had built internally
+            and used to fetch and calculate data in their clients' portfolio.<br><br>
+            Investors usually have diverse sources of , so Gorila unites them all and shows the user both general overview
+            of all assets of different classes, to expanded views of daily variation of stocks.
             <br><br>
-            The design system and screens are in this <a href="https://www.figma.com/file/pS3q3ZcouryZUq5nAXULVj/Julia-de-Belli?node-id=16%3A128" target="_blank">figma file</a>.
-             <br><br>
-             Below are the previous releases:
+            The platform consisted of a React web-app for desktop users, and a mobile React-native app that came later but had fewer features
+            than its counterpart. Most of the work I had done so far had been adapting desktop-made views to mobile, until they were on par.
+            <br><br>
+            Live Market Data was the first feature ever to be commissioned exclusively for the mobile app. It was also the first novel feature
+            I was leading production, as I got the opportunity to draw it from wireframe to Zeplin, also adding it to the existing design system
+            and documentation.
+          </div>
+        </div>
+        <br><br>
+        <div>
+          <h3>Research Phase</h3></p>
+          <h6>User Research</h6>
+          <p>
+            I approached finance professionals, in-person and on Whatsapp (n≈20) and gathered a list of 5 apps they used to check the price 
+            of stocks during trading hours.<br><br></p>
+            <h6>They were</h6>
+            <p>TradeMap
+            
+            </p>
+            <br>
+            <h6>Competitive Analysis</h6>
+            <p>We analyzed popular stock tracking apps to identify best practices, gaps, and opportunities for differentiation.
+            </p>
+            <br>
+            <h3>Ideation and Design Phase</h3>
+            <h6>User Personas</h6>
+            <p>Based on our research, we created two user personas:
+
+            Casual Investor: New to investing, interested in a user-friendly interface, and seeking guidance on stock choices.
+            Active Trader: Experienced in stock trading, looking for advanced features and real-time data to support trading strategies.
+            </p>
+           <br>
+            <h6>Design Principles</h6>
+            <p>
+            We established the following design principles:
+
+            Simplicity: The interface should provide essential information at a glance while allowing users to access deeper insights.
+            Personalization: Users should have the ability to customize their stock viewer to suit their preferences.
+            Guidance: The app should offer helpful guidance and recommendations for novice users while not hindering experienced users.
           </p>
         </div>
-        <div class="container main-info m-4 p-4 d-flex justify-content-center">
+        <br>
+        <div>
+          <h6>Information Architecture and Wireframes</h6>
+          <p>We created wireframes and an information architecture that included:
+          </p>
 
-        <!--  -->
-          <div class="col-md-6 col-sm-12">
-            <img src="site_01.gif" class="img-fluid pb-2" style="border-radius: 10px;">
-            <img src="site_02.png" class="img-fluid pb-2" style="border-radius: 10px;">
-            <img src="site_03.png" class="img-fluid pb-2" style="border-radius: 10px;">
-            <img src="site_04.png" class="img-fluid pb-2" style="border-radius: 10px;">
-          </div>
-        <!--  -->
+          Dashboard: An overview of the user's portfolio with key metrics like total value, gains/losses, and a pie chart displaying the portfolio composition.
+
+          Stock Details: A dedicated page for each stock in the portfolio with real-time data, historical charts, and news.
+
+          Watchlist: A section for users to track stocks they are interested in but haven't invested in yet.
+
+          Prototyping
+          We created interactive prototypes to validate the user flow and gather feedback from potential users.
+
+          Testing and Iteration
+          Usability Testing
+          We conducted usability testing with a diverse group of users to identify pain points and areas for improvement. Key findings included:
+
         </div>
+
+        Users appreciated the intuitive dashboard with clear visualizations.
+        Some novice users felt overwhelmed by the amount of data, so we simplified the presentation.
+        Experienced traders wanted advanced charting and analysis tools, which we integrated.
+        Iterations
+        Based on user feedback, we made several iterations to the design, including:
+
+        Simplifying the initial dashboard view for novice users.
+        Adding tooltips and explanations for complex data points.
+        Enhancing the charting capabilities with technical analysis tools for advanced users.
+        Final Design
+        Visual Design
+        The final design incorporated the app's existing aesthetic while introducing a color-coded system for stock performance and intuitive icons for actions.
+
+        Features
+        Key features of the final design included:
+
+        Customizable Dashboard: Users could select the metrics and stocks displayed on their dashboard.
+        Recommendations: The app offered stock recommendations and insights based on user preferences.
+        Advanced Charting: Experienced users had access to advanced charting and technical analysis tools.
+        Conclusion
+        The Stocks Viewer feature in the Investments App is a user-centered solution that caters to a diverse user base, from novice investors to experienced traders. By offering real-time data, customization, and insights, the feature enhances the user experience and empowers users to make informed investment decisions. Future iterations may include integrating AI for more personalized recommendations and expanding to other investment asset classes.
+      </p>
+
       </section>
+
+
       <!-- -->
       <footer>
         <div class="container pt-2 pb-4">
