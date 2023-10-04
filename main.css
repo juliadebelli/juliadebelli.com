@@ -30,7 +30,7 @@ body {
   height: 100%;
 }
 
-h1, h3, h5, h6, p, form {
+h1, h3, h5, h6, p, form, li {
   color: var(--julia-deep-purple);
   text-align: left;
 }

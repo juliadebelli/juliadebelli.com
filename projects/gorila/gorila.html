@@ -50,7 +50,9 @@
             <li class="nav-item">
               <a class="nav-link" href="../../about.html">About</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="../../blog.html">Blog</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -85,27 +87,28 @@
       <section class="container p-5">
         <div>
           <img src="" alt="" class="w-100" style="border-radius: 2em;">
-          <h2 class="pb-1">Stocks Viewer Feature: Enhancing Retention during Trade Hours</h2>
+          <h1 class="pb-2">Stocks Viewer Feature: Enhancing Retention during Trade Hours</h1>
           <h3>In this UX case study, we will delve into the design process of a Stocks Viewer feature for an Investments App. The goal of this project is to create a seamless and user-friendly experience for users to monitor and manage their stock portfolios within the app.</h3>
         <br><br>
         </div>
         <div class="d-block d-sm-flex d-lg-flex d-xl-flex w-100">
           <div class="flex-column col-md-4">
             <ul>
-              <li><h3>Project Overview</h3></li>
+              <li><h6>Project Overview</h6></li>
               <li>B2C Feature Development</li>
               <li>Duration: February - April 2020</li>
             </ul>
-
+            <br>
             <ul>
-              <li><h3>Team:</h3></li>
+              <li><h6>Team:</h6></li>
               <li>Product Designer✋</li>
               <li>React Development</li>
               <li>Back-end Development</li>
-              <li>Product Owner </li>
+              <li>Product Owner</li>
             </ul>
+            <br>
             <ul>
-              <li><h3>Tools & Frameworks</h3></li>
+              <li><h6>Tools & Frameworks</h6></li>
               <li><a href="https://sketch.com" target="_blank">Sketch</a></li>
               <li><a href="https://abstract.com" target="_blank">Abstract</a></li>
               <li><a href="https://zeplin.io" target="_blank">Zeplin</a></li>
@@ -115,12 +118,12 @@
           <br>
           <div class="flex-column col-md-8">
             <h3>Problem Statement</h3>
-
+            <p>
             Gorila is an investment management app marketed to a market-savy, Brazilian userbase. It first came to be
             when a group of fund managers decided to make into a web-app the tools they had built internally
             and used to fetch and calculate data in their clients' portfolio.<br><br>
-            Investors usually have diverse sources of , so Gorila unites them all and shows the user both general overview
-            of all assets of different classes, to expanded views of daily variation of stocks.
+            Investors usually have diverse types of assets purchased all over the place, so Gorila centralizes all portfolios and shows the user both general overview
+            of all assets, to different classes and expanded views of overtime variation of prices.
             <br><br>
             The platform consisted of a React web-app for desktop users, and a mobile React-native app that came later but had fewer features
             than its counterpart. Most of the work I had done so far had been adapting desktop-made views to mobile, until they were on par.
@@ -128,6 +131,7 @@
             Live Market Data was the first feature ever to be commissioned exclusively for the mobile app. It was also the first novel feature
             I was leading production, as I got the opportunity to draw it from wireframe to Zeplin, also adding it to the existing design system
             and documentation.
+            </p>
           </div>
         </div>
         <br><br>
@@ -138,29 +142,34 @@
             I approached finance professionals, in-person and on Whatsapp (n≈20) and gathered a list of 5 apps they used to check the price 
             of stocks during trading hours.<br><br></p>
             <h6>They were</h6>
-            <p>TradeMap
-            
+            <p>TradeMap (main competition)<br>
+              Investing.com<br>
+              Bloomberg<br>
+              Yahoo Finance<br>
+              Native Stocks Apps (Google, iOS)
             </p>
             <br>
             <h6>Competitive Analysis</h6>
-            <p>We analyzed popular stock tracking apps to identify best practices, gaps, and opportunities for differentiation.
+            <p>We analyzed the above-mentioned services to identify what's familiar to the userbase, and what could be opportunities to deliver an improved experience.
+
             </p>
             <br>
-            <h3>Ideation and Design Phase</h3>
-            <h6>User Personas</h6>
-            <p>Based on our research, we created two user personas:
-
-            Casual Investor: New to investing, interested in a user-friendly interface, and seeking guidance on stock choices.
-            Active Trader: Experienced in stock trading, looking for advanced features and real-time data to support trading strategies.
+            <h3>Ideation and Design</h3>
+            <h6>Use cases</h6>
+            <p>Based on our research, we found 2 main user flows that the feature should appeal to
+              <br>
+              <br>
+            <span class="negrito">Cabin:</span> User will pick a couple, but no more than a dozen favorite stocks to focus their attention<br>
+            <span class="negrito">Grandstand:</span> User will watch multiple stocks in a zoom-out analysis, like watching all horses race while betting on none <br>
             </p>
            <br>
             <h6>Design Principles</h6>
             <p>
-            We established the following design principles:
-
-            Simplicity: The interface should provide essential information at a glance while allowing users to access deeper insights.
-            Personalization: Users should have the ability to customize their stock viewer to suit their preferences.
-            Guidance: The app should offer helpful guidance and recommendations for novice users while not hindering experienced users.
+            Based on our talks with long-time and novice stocks app users, we established the following design principles:
+            <br><br>
+            <span class="negrito">Familiarity:</span> Users should be able to navigate information in a similar manner to existing tools;<br>
+            <span class="negrito">Neatness:</span> Numbers and graphs shouldn't clouder the screen<br>
+            <span class="negrito">Personalization:</span> Users should have the ability to customize their stock viewer to suit their preferences.<br>
           </p>
         </div>
         <br>
