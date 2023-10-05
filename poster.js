@@ -143,7 +143,7 @@ function listHTMLFiles() {
       </li>
     </ul>
   </div>
-</nav>\n</section>\n<div class="container w-75 pt-4 pl-5">\n<br><h1>I wrote these</h1><br>\n<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08980d56-6116-424b-bbfa-fef1dd46a501/d7i0pj0-be679d43-f4a5-422f-b3f3-dc3911c32373.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA4OTgwZDU2LTYxMTYtNDI0Yi1iYmZhLWZlZjFkZDQ2YTUwMVwvZDdpMHBqMC1iZTY3OWQ0My1mNGE1LTQyMmYtYjNmMy1kYzM5MTFjMzIzNzMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ftJrBWBYjrfIh6ykpxxYSJ_Hu1WXoopO85q0dCF7hb4" style="mix-blend-mode: multiply;">\n<br><br>\n<div>${listHTML}</div>\n</div>\n</body>\n</html>`;
+</nav>\n</section>\n<div class="container w-75 pt-4 pl-5">\n<br><h1>I wrote these</h1><br>\n<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08980d56-6116-424b-bbfa-fef1dd46a501/d7i0pj0-be679d43-f4a5-422f-b3f3-dc3911c32373.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA4OTgwZDU2LTYxMTYtNDI0Yi1iYmZhLWZlZjFkZDQ2YTUwMVwvZDdpMHBqMC1iZTY3OWQ0My1mNGE1LTQyMmYtYjNmMy1kYzM5MTFjMzIzNzMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ftJrBWBYjrfIh6ykpxxYSJ_Hu1WXoopO85q0dCF7hb4" style="mix-blend-mode: multiply;" alt="a very old gif I made over a decade ago">\n<br><br>\n<div>${listHTML}</div>\n</div>\n</body>\n</html>`;
 
   // Write the page HTML to a file
   fs.writeFile('blog.html', pageHTML, function (err) {

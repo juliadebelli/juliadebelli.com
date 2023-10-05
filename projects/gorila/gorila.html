@@ -75,7 +75,7 @@
                 </a>
                 </li>
 
-                <li class="breadcrumb-item active" aria-current="page">Gorila Live Market Data</li>
+                <li class="breadcrumb-item active" aria-current="page">UX Case Study</li>
             </ol>
           </nav>
 
@@ -84,10 +84,11 @@
       <!-- -->
 
 
-      <section class="container p-5">
+      <section class="container">
         <div>
-          <img src="" alt="" class="w-100" style="border-radius: 2em;">
-          <h1 class="pb-2">Stocks Viewer Feature: Enhancing Retention during Trade Hours</h1>
+          <img src="assets/gorila_cover.svg" alt="study case cover with company's legacy branding" class="w-100" style="border-radius: 2em;">
+          <br><br>
+          <h1 class="pb-2">Gorila Live Market Data: Enhancing Retention during Trade Hours</h1>
           <h3>In this UX case study, we will delve into the design process of a Stocks Viewer feature for an Investments App. The goal of this project is to create a seamless and user-friendly experience for users to monitor and manage their stock portfolios within the app.</h3>
         <br><br>
         </div>
@@ -123,14 +124,14 @@
             when a group of fund managers decided to make into a web-app the tools they had built internally
             and used to fetch and calculate data in their clients' portfolio.<br><br>
             Investors usually have diverse types of assets purchased all over the place, so Gorila centralizes all portfolios and shows the user both general overview
-            of all assets, to different classes and expanded views of overtime variation of prices.
+            of all assets, to different classes and expanded views of overtime variation of prices. The app was free for all but also offered premium individual 
+            membership and B2B accounts for managers of many accounts. 
             <br><br>
             The platform consisted of a React web-app for desktop users, and a mobile React-native app that came later but had fewer features
             than its counterpart. Most of the work I had done so far had been adapting desktop-made views to mobile, until they were on par.
             <br><br>
             Live Market Data was the first feature ever to be commissioned exclusively for the mobile app. It was also the first novel feature
-            I was leading production, as I got the opportunity to draw it from wireframe to Zeplin, also adding it to the existing design system
-            and documentation.
+            I was leading production, as there was no prior desktop feature to reference. So I got the opportunity to draw it from wireframe to final hand-off.
             </p>
           </div>
         </div>
@@ -142,19 +143,15 @@
             I approached finance professionals, in-person and on Whatsapp (n≈20) and gathered a list of 5 apps they used to check the price 
             of stocks during trading hours.<br><br></p>
             <h6>They were</h6>
-            <p>TradeMap (main competition)<br>
-              Investing.com<br>
-              Bloomberg<br>
-              Yahoo Finance<br>
-              Native Stocks Apps (Google, iOS)
+            <p><a href="https://trademap.com.br" target="_blank">TradeMap</a> (main competition)<br>
+              <a href="https://www.investing.com/equities/" target="_blank">Investing.com</a><br>
+              <a href="https://www.bloomberg.com/markets/stocks" target="_blank">Bloomberg</a><br>
+              <a href="https://finance.yahoo.com/most-active" target="_blank">Yahoo Finance</a><br>
+              <a href="https://apps.apple.com/us/app/stocks/id1069512882" target="_blank">iOS Native Stocks app</a><br>
+              Investment firms (XP, Órama, Vitreo)
             </p>
             <br>
-            <h6>Competitive Analysis</h6>
-            <p>We analyzed the above-mentioned services to identify what's familiar to the userbase, and what could be opportunities to deliver an improved experience.
-
-            </p>
-            <br>
-            <h3>Ideation and Design</h3>
+            <h3>Ideation and Design</h3><br>
             <h6>Use cases</h6>
             <p>Based on our research, we found 2 main user flows that the feature should appeal to
               <br>
@@ -167,54 +164,77 @@
             <p>
             Based on our talks with long-time and novice stocks app users, we established the following design principles:
             <br><br>
-            <span class="negrito">Familiarity:</span> Users should be able to navigate information in a similar manner to existing tools;<br>
-            <span class="negrito">Neatness:</span> Numbers and graphs shouldn't clouder the screen<br>
-            <span class="negrito">Personalization:</span> Users should have the ability to customize their stock viewer to suit their preferences.<br>
+            <span class="negrito">Familiarity:</span> Users should be able to navigate information in a similar manner to existing third-party tools;<br>
+            <span class="negrito">Neatness:</span> Numbers and graphs shouldn't be messy or clouder the screen. Clarity is a must;<br>
+            <span class="negrito">Personalization:</span> Users should have total control over what stocks they wish to view.
+            <br>
           </p>
         </div>
         <br>
         <div>
-          <h6>Information Architecture and Wireframes</h6>
-          <p>We created wireframes and an information architecture that included:
+          <h3>Wireframing and Prototyping</h3>
+          <br>
+          <p>Before digital interfaces, stock tickets and their prices would be manually updated by a human, whose back stood against a wall filled with several columns and lines 
+            of all purchasable assets at that particular exchange. Investors would crowd up around the wall in order to check-in first hand on the latest variation.<br>
           </p>
+          <img src="assets/nyse.png" class="w-100">
+          <br><br>
+          <p>
+            The vintage, letterboards stock tickets ended up becoming tables on the very first digital monitors, eventually turning into 
+            a single, scrollable column of tickets on our smartphones.
+          </p>
+          <br>
+          <h6>Main view</h6>
+          <p>All apps we researched as reference presented stocks in this fashion. Some would do two-a-line on bigger desktop screens.
+            One-line, full width cells achieve better visibility. 
 
-          Dashboard: An overview of the user's portfolio with key metrics like total value, gains/losses, and a pie chart displaying the portfolio composition.
-
-          Stock Details: A dedicated page for each stock in the portfolio with real-time data, historical charts, and news.
-
-          Watchlist: A section for users to track stocks they are interested in but haven't invested in yet.
-
-          Prototyping
-          We created interactive prototypes to validate the user flow and gather feedback from potential users.
-
-          Testing and Iteration
-          Usability Testing
-          We conducted usability testing with a diverse group of users to identify pain points and areas for improvement. Key findings included:
-
+            Cells should contain a bar to their left referencing the color of the asset class they belong (the feature also included currency, crypto, funds and American Stocks).<br>
+            
+            <br>
+            The 4 letters, 1 number code (ITSA4, MGLU3, PETR3) in bold letters, as the title of each cell. To their right, the price of the ticket stands opposite 
+            to its name on the same line, and below it the price variation percentage along with market-default green and red ▲▼ for ups and downs;
+            <br><br>
+            A search button and input were added to filter stocks by their code or company name;
+            <br><br>
+            Long-pressing stock tickets alow them to be removed from main viewing;
+            <br><br>
+            A LIVE button was added as a premium feature. Free users would get the latest hour trades, to be updated every hour. 
+          </p>
+          <br>
+          <h6>Stock Details</h6> 
+          <p>Tapping a stock ticket redirects to an individual view of the stock, containing its historical variation and other details.</p>
+          <br>
+          <h6>Prototyping</h6>
+          <p>We created interactive Sketch prototypes to validate the user flow and gather feedback from potential users.</p>
         </div>
+        <br>
+        <div>
+          <h3>Feedback and Iteration</h3>
+          <p>Based on users' journey in our Sketch Mirror app, we made several iterations to the design, including:
+          </p>
+          <ul>
+          <li>Using a ➕ sign instead of 🔎 for researching stocks;</li>
 
-        Users appreciated the intuitive dashboard with clear visualizations.
-        Some novice users felt overwhelmed by the amount of data, so we simplified the presentation.
-        Experienced traders wanted advanced charting and analysis tools, which we integrated.
-        Iterations
-        Based on user feedback, we made several iterations to the design, including:
+          <li>Adding stocks purchased by user as default;
+          </li>
+          <li>Sliding cells to the right to favorite/unfavorite and see details (instead of long-press)</li>
+          </ul>
+          <br>
+          <h3>Hand-off to production</h3><br>
+          <p>The final design was a clean, one-liner stock viewer following Gorila's material design-based aesthetic.<br>
+          <br>
+            It was placed as the 5th element on bottom app navigation, along with 4 main, pre-existing features (dashboard, wallet, buy/sell button and advanced tools shortcut)
+            for it's supposed to be easily accessible by users.
+          </p>
+          <br><br>
+          <h3>Closing Thoughts</h3>
+          <br>
+          <p>By using familiar layouts and interactions along with personalized pre-filled stocks, we delivered a feature that intuitively worked for an informed user-base already
+            familiar with the language.
 
-        Simplifying the initial dashboard view for novice users.
-        Adding tooltips and explanations for complex data points.
-        Enhancing the charting capabilities with technical analysis tools for advanced users.
-        Final Design
-        Visual Design
-        The final design incorporated the app's existing aesthetic while introducing a color-coded system for stock performance and intuitive icons for actions.
-
-        Features
-        Key features of the final design included:
-
-        Customizable Dashboard: Users could select the metrics and stocks displayed on their dashboard.
-        Recommendations: The app offered stock recommendations and insights based on user preferences.
-        Advanced Charting: Experienced users had access to advanced charting and technical analysis tools.
-        Conclusion
-        The Stocks Viewer feature in the Investments App is a user-centered solution that caters to a diverse user base, from novice investors to experienced traders. By offering real-time data, customization, and insights, the feature enhances the user experience and empowers users to make informed investment decisions. Future iterations may include integrating AI for more personalized recommendations and expanding to other investment asset classes.
-      </p>
+            We were happy to receive many reviews from Gorila users that made the switch and started using our app for their market viewing.
+          </p>
+      </div>
 
       </section>
 

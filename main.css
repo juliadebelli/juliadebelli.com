@@ -35,6 +35,8 @@ h1, h3, h5, h6, p, form, li {
   text-align: left;
 }
 
+
+
 .img-fluid {
   max-width: 90%;
   border-radius: 1em;
@@ -290,10 +292,12 @@ footer li {
   /* Your CSS styles for screens smaller than 576px go here */
   h3 {
     font-size: 0.9em;
+    font-weight: bold;
   }
 
   h1 {
     font-size: 1.4em;
+    font-weight: bold;
   }
 }
 

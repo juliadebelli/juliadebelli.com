@@ -61,14 +61,24 @@ Materials used should be cheap enough nobody will take interest in stealing them
 <br><br>
 It cannot be something that requires any power tools to be installed, as there's no power outlet easily accessible nearby.
 <br><br>
-My first prototype was tying 2 goal nets on the metal posts using insulation tape, like a makeshift fence. It worked but only that time, as I had to take it off once we were done. Besides bureaucrausts, we also have to deal with the ever-lingering possibility that someone might take something left unattended in a public spot.
+<h3>25/09/2023</h3>
+<p>My first prototype was tying 2 goal nets on the metal posts using insulation tape, like a makeshift fence. It worked but only that time, as I had to take it off once we were done. Besides bureaucrausts, we also have to deal with the ever-lingering possibility that someone might take something left unattended in a public spot.
+</p>
 <br><br>
+<h3>02/10/2023</h3>
+<p>
+The following week, I brought some generic string yard to tie the nets to the metal posts. Did a better job than insulation tape.<br>
+Also went and did some rough estimations of size by tying string around the whole - unsuccessful.<br><br>
+Will try again next week.
+</p>
+<br>
+<p>_________________________________</p>
+<p>
 I'll be keeping this entry updated with every new <span class="italico"><a target='_blank' href="https://en.wikipedia.org/wiki/Jeitinho">gambiarra</a></span> I try, and whether it worked or not.<br><br>
 It's going to be an honour to have it removed by city hall, and I trust they'll only do this once the court is ready for re-modelling - and my job will be done.
-<br><br>
 </p>
 <p>_________________________________</p>
 <p style="font-size: 0.6em;">✰ 28/09/2023</p>
-<p style="font-size: 0.6em; padding-bottom: 2em; margin-bottom: 2em;">last edited 29/09/2023</p>
+<p style="font-size: 0.6em; padding-bottom: 2em; margin-bottom: 2em;">last edited 04/10/2023</p>
 </body>
 
