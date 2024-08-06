@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+:root {
+    --main-font: 'Montserrat', sans-serif;
+}
+
+* {
+    font-family: var(--main-font);
+}
+
+body {
+    background-color: #FBFFF1;
+}
+
+#submit-btn, #start-again-btn {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border-radius: 0.4em;
+}
+
+#random-image {
+    height: 16em;
+}
