@@ -34,26 +34,20 @@
         </nav>
     </section>
 
-# Playing in the ocean at playground.ai.com
+<h1 id="playing-in-the-ocean-at-playgroundaicom">Playing in the ocean at playground.ai.com</h1>
 <p style="font-size: 1.2em;">Experimenting with my favorite piece of ukiyo-e and AI generating</p>
 <br>
 
-I recently came across the work of <a href="https://twitter.com/MrUgleh" target="_blank">MrUgleh's</a> on ai-art twitter (yea still refusing to call it the letter)
+<p>I recently came across the work of <a href="https://twitter.com/MrUgleh" target="_blank">MrUgleh&#39;s</a> on ai-art twitter (yea still refusing to call it the letter)
 ⃪⃪
-Basically he started a trend of inputting geometric patterns as organic parts of the image, first triggered by this pair:
-
+Basically he started a trend of inputting geometric patterns as organic parts of the image, first triggered by this pair:</p>
 <div style="display: flex; flex-wrap: wrap;"><img src="assets/wave-spiral.jpg" height="400px"><br><img src="assets/wave-checkered.jpeg" height="400px"></div>
 
-Japanese Ukiyo-e is my favorite to play with because of its delicate nature
-
-While searching for free AI tools, I found out on reddit about playgroundai. Its Figma-inspired layout and image-editing key patterns made it quick to get around.
-
-First I started generating new waves, then remembered the trend sparkled by our dearest MrUgleh and decided to go and try to *write my name in the waves*.
-
-Some intermediary generations somehow ended up expressionist mustard waves. Nothing Hokusai about it. Changed the prompt back to a Kanagawa Wave clone and wrote my name using the pencil tool, trying to tell it to get closer.
-
-My free trials for today are now done and here's my timeline so far:</p>
-
+<p>Japanese Ukiyo-e is my favorite to play with because of its delicate nature</p>
+<p>While searching for free AI tools, I found out on reddit about playgroundai. Its Figma-inspired layout and image-editing key patterns made it quick to get around.</p>
+<p>First I started generating new waves, then remembered the trend sparkled by our dearest MrUgleh and decided to go and try to <em>write my name in the waves</em>.</p>
+<p>Some intermediary generations somehow ended up expressionist mustard waves. Nothing Hokusai about it. Changed the prompt back to a Kanagawa Wave clone and wrote my name using the pencil tool, trying to tell it to get closer.</p>
+<p>My free trials for today are now done and here&#39;s my timeline so far:</p></p>
 <img class="w-25" src="../ai-gallery/wave/01.png">
 <img class="w-25" src="../ai-gallery/wave/02.png">
 <img class="w-25" src="../ai-gallery/wave/03.png">
