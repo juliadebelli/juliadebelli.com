@@ -46,6 +46,11 @@ h1, h3, h5, h6, p, form, li {
   font-style: italic;
 }
 
+.important {
+  background-color: var(--tiffany-blue);
+  font-weight: 700;
+}
+
 button {
   border: none;
   height: 3em;
@@ -199,7 +204,6 @@ h1 {
 }
 
 h3 {
-  font-weight: 600;
   font-size: 1.2em;
 }
 
