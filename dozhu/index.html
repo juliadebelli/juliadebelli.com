@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container justify-content-center">
+        <a class="navbar-brand m-4" href="#"><img src="logo_dozhu.svg" alt="Your Logo" height="64"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item px-2">
+                    <button class="nav-link btn-secondary" data-toggle="modal" data-target="#waitlistModal">Join Waitlist</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero h-50 p-2">
+    <div class="container d-sm-block d-md-flex d-lg-flex d-xl-flex flex-row">
+        <div class="flex-row col-sm-12 col-md-6">
+            <h1 class="w-75 mb-5">Learn <span class="yellow-colored">Mandarin</span> from Taiwan</h1>
+            <div class="input-group mb-3 d-sm-block d-md-flex">
+                <input type="email" class="form-control w-100" placeholder="Enter your email" data-netlify="true">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#waitlistModal">Join Waitlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-bg col-xs-12 col-sm-12 col-md-4">
+            <img src="hero_mascots.svg" id="mascotes">
+        </div>
+    </div>
+</section>
+
+<!-- What Section -->
+<section class="what h-75">
+    <div class="container">
+        <div class="d-flex align-content-center p-5">
+            <h3 class="lh-base"><span class="red-colored font-weight-bold">Dozhu</span> is a language learning app aimed for those who wish to learn Taiwanese Mandarin, featuring
+                <span class="red-colored">Traditional</span> characters and the <span class="red-colored">Zhuyin</span> phonetic system.
+                <br><br>
+                <div class="p-3 text-center"><img class="text-center" src="flag.svg"></div>
+                <br>
+                These, in turn, are the standard variation to just Taiwan, as Mainland China uses
+                simplified hanzi and Pinyin transliteration.
+                <br>
+            </h3>
+        </div>
+    </div>
+</section>
+
+<!-- Why Section -->
+<section class="why h-75">
+    <div class="container m-auto p-4">
+        <br>
+        <h1 class="">Top reasons to choose Taiwanese Mandarin:</h1>
+        <br>
+        <div class="d-sm-block d-md-flex d-lg-flex d-xl-flex">
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                <div class="h-auto">
+                    <img src="icon_trad-char.svg" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+                        <h3>Intact Radicals</h3>
+                        <p>They provide more intuitive and efficient learning curve for character reading and writing
+                            on the long run.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                <div class="h-auto">
+                    <img src="icon_media.svg" class="card-img-top" alt="Image 2">
+                    <div class="card-body">
+                        <h3>Movies, books, tv and games</h3>
+                        <p>Due to the absence of media blockage, Western productions
+                            in general are readily available through Traditional Mandarin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                <div class="h-auto">
+                    <img src="icon_internet.svg" class="card-img-top" alt="Image 2">
+                    <div class="card-body">
+                        <h3>Same Internet</h3>
+                        <p>Traditional Mandarin speakers post on the same Instagram, Twitter, Tiktok and Reddit as Westerners do,
+                            allowing for greater interaction - a key element in language learning!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                <div class="h-auto">
+                    <img src="icon_japan.svg" class="card-img-top" alt="Image 3">
+                    <div class="card-body">
+                        <h3 class="card-title">Easier through Japanese</h3>
+                        <p>More similarities to the Japanese language are shared with Taiwanese style over Mainland's,
+                            and most Japanese turn to Taiwan's method due to this proximity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- When Section -->
+<section class="work h-100 mt-4">
+    <br>
+    <br>
+    <img src="hr.svg" class="d-none w-100 hr-brush">
+    <div class="container text-center">
+        <div class="">    
+            <h1 class="p-2">We are currently developing a starting Bopomofo Unit</h1>
+            <div class="container d-flex justify-content-center w-50">
+                <img src="mockup_1.svg" class="round-corners p-2 img-fluid">
+                <img src="mockup_2.svg" class="round-corners p-2 img-fluid">
+            </div>
+        </div>
+
+        <div class="mb-5 d-none">
+            <a href="#" class="btn btn-primary">Development Blog</a>
+        </div>
+    </div>
+</section>
+<section class="when">
+    <div class="container mt-4">
+        <h1 class="text-center my-2">How we're doing</h1>
+        <ol class="d-flex flex-row">
+            <li class="ongoing pr-4">Design & assets</li>
+            <li class="waiting pr-4">React App</li>
+            <li class="waiting pr-4">Back-end</li>
+            <li class="waiting pr-4">Public Beta</li>
+        </ol>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer h-50 pt-4">
+    <div class="container p-2 m-auto">
+        <div class="d-flex flex-row">
+            <div class="col-lg-3 h-25 pb-5">
+                <img src="logo_dozhu.svg" class="img-fluid">
+            </div>
+            <div class="offset-4"></div>
+            <div class="col-lg-3">
+                <div class="site-map">
+                    <ul>
+                        <li class="nav-item pb-1"><a href="#hero" class="no-decoration">Home</a></li>
+                        <li class="nav-item pb-1"><a href="#what" class="no-decoration">About</a></li>
+                        <li class="nav-item pb-1"><a href="blog.html" class="no-decoration">Blog</a></li>
+                        <li class="nav-item pb-1"><button class="nav-link btn-secondary" data-toggle="modal" data-target="#waitlistModal">Join Waitlist</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Waitlist Modal -->
+<div class="modal fade" id="waitlistModal" tabindex="-1" role="dialog" aria-labelledby="waitlistModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="waitlistModalLabel">Join Waitlist</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Add your form elements for email, name, and checkbox here -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Join</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
